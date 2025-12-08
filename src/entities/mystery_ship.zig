@@ -9,7 +9,7 @@ pub const MysteryShip = struct {
     position: rl.Vector2,
     speed: f32 = 0,
     is_alive: bool = false,
-    id_ship: u32 = 1,
+    id_ship: u8 = 0,
 
     pub fn init() !MysteryShip {
         return MysteryShip{

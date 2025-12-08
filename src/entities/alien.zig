@@ -19,7 +19,7 @@ pub const Alien = struct {
     alien_type: AlienType,
     position: rl.Vector2,
     id_alien: usize = 0,
-    id_alien_change: u32 = 0,
+    id_alien_change: u8 = 0,
 
     pub fn init(alien_type: AlienType, position: rl.Vector2) !Alien {
         const id: usize = @intFromEnum(alien_type);
