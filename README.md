@@ -1,6 +1,6 @@
 # zig_invaders
 
- Space invaders in Zig and Raylib
+ Space invaders escrito em **Zig** com uso da lib **Raylib**
  
  Zig versão 0.15.1
  
