@@ -4,6 +4,12 @@
  
  Zig versão 0.15.1
  
+ Após clonar o repositório, use o comando abaixo para instalar as
+ dependências (RayLib) deste projeto.
+ 
+ zig build --fetch
+  
+ 
  **Alterações em andamento...**
  
  - Fiz ajustes no projeto original para a versão 0.15.1 do zig.
